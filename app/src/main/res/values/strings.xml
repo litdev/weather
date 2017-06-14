@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="dialog_search">Getting data..</string>
+    <string name="dialog_location">Getting location..</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="settings_title_location">Location</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="location_settings_message">Location is not enabled. Do you wish to go to the settings menu?</string>
+    <string name="location_settings_button">Settings</string>
+
+    <string name="text_home">Home Fragment</string>
+    <string name="text_notifications">Notifications Fragment</string>
+    <string name="text_search">Search Fragment</string>
+
+    <string name="menu_w">Weather</string>
+    <string name="menu_f">Forecast</string>
+    <string name="menu_m">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_forecast_fragment">forecast_fragment</string>
+    <string name="title_activity_aaa">aaa</string>
+</resources>

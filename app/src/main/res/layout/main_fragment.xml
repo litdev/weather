@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.userx.weather.fragments.ForecastFragment">
+
+    <ImageView
+        android:id="@+id/bgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="12°C"
+        android:textColor="@color/color_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="38dp"
+        android:id="@+id/tempView"
+        android:layout_marginLeft="13dp"
+        android:layout_alignBaseline="@+id/iconView"
+        android:layout_alignBottom="@+id/iconView"
+        android:layout_toEndOf="@+id/iconView" />
+
+    <TextView
+        android:text="Wind: 234 m/s"
+        android:textColor="@color/color_black"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/windView"
+        android:layout_below="@+id/descrView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Humidity: 78%"
+        android:textColor="@color/color_black"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/humidView"
+        android:layout_below="@+id/windView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="OO"
+        android:textColor="@color/color_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="96dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="45dp"
+        android:textSize="92dp"
+        android:id="@+id/iconView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="scattered clouds"
+        android:textColor="@color/color_black"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descrView"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/iconView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

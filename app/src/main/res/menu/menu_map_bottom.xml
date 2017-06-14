@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map_rain"
+        android:icon="@drawable/rain_icon_72"
+        android:title="Rain" />
+    <item
+        android:id="@+id/map_wind"
+        android:icon="@drawable/wind_icon_72"
+        android:title="Wind" />
+    <item
+        android:id="@+id/map_temperature"
+        android:icon="@drawable/temp_icon_72"
+        android:title="Temperature" />
+</menu>
